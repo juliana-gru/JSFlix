@@ -81,7 +81,7 @@
 }
 
 @media screen and (min-width: 1440px) {
-  .hero-section {padding: 100px 0;}
+  .hero-section {padding: 100px 60px;}
   .movie-logo {height: 150px;}
   .fa-play, .fa-plus {font-size: 16px;}
 

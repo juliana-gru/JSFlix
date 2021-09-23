@@ -2,7 +2,7 @@
 /* eslint-disable jsx-a11y/label-has-associated-control */
 /* eslint-disable jsx-a11y/no-noninteractive-element-interactions */
 import React from 'react';
-import { useHistory } from 'react-router-dom';
+import { useHistory, Link } from 'react-router-dom';
 
 import Header from '../components/Header/Header';
 import './Login.css';
@@ -32,9 +32,9 @@ const Login = () => {
   return (
     <div className="page loginPage">
       <Header loginBtn={false}>
-        <a href="/" className="back-home">
+        <Link to="/" className="back-home">
           <p className="back-home"> Back to Home </p>
-        </a>
+        </Link>
       </Header>
       <section className="content">
         <form
@@ -53,7 +53,8 @@ const Login = () => {
           </button>
 
           <span className="psw">
-            <a href="#">Forgot password?</a>
+            <Link to="#">Forgot password?</Link>
+            {/* Missing forgot password functionality */}
           </span>
         </form>
       </section>
