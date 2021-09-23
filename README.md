@@ -5,7 +5,7 @@ A React app that emulates Netflix (under development)
 
 Live on: https://jsflix.netlify.app/
 
-=> Frontend is functional but is not connected to the API yet, so clicking on "Try for 30 days free" will take you straight to the authenticated area.
+=> Frontend is functional but is not connected to the API yet, so clicking on "Try for 30 days free" will take you straight into the authenticated area.
 
 ### User stories*
 - User can create an account with their email
@@ -19,7 +19,6 @@ Live on: https://jsflix.netlify.app/
 
 - Reactjs
 - Nodejs
-- PostgreSQL
 
 ### Other:
-- The movie/tv shows are from TheMovieDB API (recommended).
+- The movie/tv shows are from TheMovieDB API.
